@@ -1,0 +1,42 @@
+body {
+    color: rgb(220, 220, 220);
+    background-color: rgb(70, 70, 70);
+
+}
+
+.catchy-text {
+    font-size: 2rem;
+}
+
+.column-text {
+    display: flex;
+    align-items: center;
+}
+
+body img {
+    width: 100%;
+    min-width: 256px;
+    border-radius: 4px;
+}
+
+.read-more {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px 0;
+}
+
+.read-more .dot {
+    margin-bottom: 0;
+}
+
+.quick-info {
+    font-size: 1.2rem;
+    max-width: calc(60% + 1.2rem);
+    margin: 0 auto;
+}
+
+.chatgpt {
+    font-style: italic;
+    margin: 50px 0;
+}
