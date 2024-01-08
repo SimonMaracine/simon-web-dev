@@ -1,6 +1,6 @@
 body {
     color: rgb(220, 220, 220);
-    background-color: rgb(70, 70, 70);
+    background-color: #474747;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -43,4 +43,9 @@ h2 {
 
 .plan-name {
     font-weight: bold;
+}
+
+ul {
+    font-size: 1.2rem;
+    text-align: left;
 }
