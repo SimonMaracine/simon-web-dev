@@ -24,5 +24,5 @@ function onNavigationLoad(responseText, textStatus, jqXHR) {
 }
 
 $(function() {
-    $("header").load("/html/navigation.html", "", onNavigationLoad);
+    $("header").load("navigation.html", "", onNavigationLoad);
 });
