@@ -4,18 +4,6 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.catchy-text {
-    font-size: 2rem;
-    box-shadow: 4px 4px 8px black;
-    padding: 15px;
-    border-radius: 4px;
-}
-
-.column-text {
-    display: flex;
-    align-items: center;
-}
-
 main {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -23,9 +11,21 @@ main {
 
 main img {
     width: 100%;
-    min-width: 256px;
+    min-width: 512px;
     border-radius: 4px;
-    box-shadow: 4px 4px 15px black;
+    box-shadow: 4px 4px 15px rgb(30, 30, 30);
+}
+
+.catchy-text {
+    font-size: 2rem;
+    box-shadow: 4px 4px 8px rgb(30, 30, 30);
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.column-text {
+    display: flex;
+    align-items: center;
 }
 
 .read-more {

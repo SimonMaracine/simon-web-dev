@@ -1,0 +1,26 @@
+body {
+    color: rgb(220, 220, 220);
+    background-color: rgb(70, 70, 70);
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main img {
+    width: 100%;
+    min-width: 512px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgb(30, 30, 30);
+}
+
+.contact-information {
+    font-size: 1.2rem;
+}
+
+.contact-information a {
+    display: block;
+    text-decoration: none;
+}
