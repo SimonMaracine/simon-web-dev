@@ -14,19 +14,14 @@ h2 {
 }
 
 img {
-    width: 256px;
+    width: 200px;
     border-radius: 16px;
     box-shadow: 4px 4px 10px rgb(30, 30, 30);
     float: left;
     margin: 1rem;
 }
 
-.wrap-text-container {
-    max-width: calc(60% + 1.2rem);
-    margin: 0 auto;
-}
-
-.wrap-text-container p {
+main p {
     font-size: 1.2rem;
     text-align: justify;
 }

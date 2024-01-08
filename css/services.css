@@ -16,8 +16,6 @@ h2 {
 .description {
     font-size: 1.2rem;
     text-align: justify;
-    max-width: calc(60% + 1.2rem);
-    margin: 0 auto;
 }
 
 .description span {
@@ -31,7 +29,7 @@ h2 {
     margin-bottom: 70px;
 }
 
-.plan-section .col {
+.plan-column {
     border: 2px solid gray;
     padding-top: 30px;
     padding-bottom: 30px;
