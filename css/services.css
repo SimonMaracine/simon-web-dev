@@ -18,6 +18,13 @@ h2 {
     text-align: justify;
 }
 
+@media (min-width: 992px) {
+    /* Change the max-width for the container from lg and up */
+    .description {
+        max-width: 960px;
+    }
+}
+
 .description span {
     font-weight: bold;
 }
