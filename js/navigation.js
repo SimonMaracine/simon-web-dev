@@ -1,7 +1,3 @@
-$(function() {
-    $("header").load("/html/navigation.html");
-});
-
 function setActivePage(pageName) {
     const home = document.getElementById("home-page");
     home.classList.remove("active");
@@ -10,12 +6,9 @@ function setActivePage(pageName) {
     page.classList.add("active");
 }
 
-$(window).on("load", function() {
+function onNavigationLoad(responseText, textStatus, jqXHR) {
     const pageName = window.location.href;
-    console.log(pageName);
-
     const tokens = pageName.split("/");
-    console.log(tokens);
 
     switch (tokens[tokens.length - 1]) {
         case "services.html":
@@ -28,4 +21,8 @@ $(window).on("load", function() {
             setActivePage("contact-page");
             break;
     }
+}
+
+$(function() {
+    $("header").load("/html/navigation.html", "", onNavigationLoad);
 });
