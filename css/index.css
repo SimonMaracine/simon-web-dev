@@ -49,7 +49,7 @@ img {
 }
 
 @media (min-width: 992px) {
-    /* Change the max-width for the container from md and up */
+    /* Change the max-width for the container from lg and up */
     .quick-info {
         max-width: 960px;
     }
