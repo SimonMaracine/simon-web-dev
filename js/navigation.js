@@ -10,7 +10,7 @@ function onNavigationLoad(responseText, textStatus, jqXHR) {
     const pageName = window.location.href;
     const tokens = pageName.split("/");
 
-    switch (tokens[tokens.length - 1]) {
+    switch (tokens[tokens.length - 1]) {  // TODO maybe should just do string search instead of comparison
         case "services.html":
             setActivePage("services-page");
             break;
