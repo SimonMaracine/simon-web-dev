@@ -1,0 +1,32 @@
+body {
+    color: rgb(220, 220, 220);
+    background-color: rgb(70, 70, 70);
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 256px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 10px rgb(30, 30, 30);
+    float: left;
+    margin: 1rem;
+}
+
+.wrap-text-container {
+    max-width: calc(60% + 1.2rem);
+    margin: 0 auto;
+}
+
+.wrap-text-container p {
+    font-size: 1.2rem;
+    text-align: justify;
+}

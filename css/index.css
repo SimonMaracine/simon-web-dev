@@ -9,10 +9,10 @@ main {
     padding-bottom: 50px;
 }
 
-main img {
+img {
     width: 100%;
     min-width: 512px;
-    border-radius: 4px;
+    border-radius: 6px;
     box-shadow: 4px 4px 15px rgb(30, 30, 30);
 }
 
@@ -20,7 +20,7 @@ main img {
     font-size: 2rem;
     box-shadow: 4px 4px 8px rgb(30, 30, 30);
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .column-text {
