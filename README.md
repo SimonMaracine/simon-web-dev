@@ -26,7 +26,8 @@ files organized in an *html* directory, and so I had to move them out.
 
 ## In The Wild
 
-I tested the website on a `Fedora Linux` desktop computer, on `Mozilla Firefox 121.0` and on `Google Chrome 120.0`
-and it looks okay.
+I tested the website on a `Fedora Linux` desktop computer, on `Mozilla Firefox 121.0` and on `Google Chrome 120.0`,
+`1920x1080` resolution.
 
-And, of course, I also tested it on mobile, on `Mozilla Firefox for Android 121.0.1`. It looks great.
+And, of course, I also tested it on mobile, on `Mozilla Firefox for Android 121.0.1`, `2340x1080` resolution,
+`5.9"` size. It looks all right.
