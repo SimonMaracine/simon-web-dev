@@ -1,4 +1,4 @@
-# Simon Web Dev (made up thing)
+# Simon Web Dev (a made up thing)
 
 ## What Is It
 
